@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(31, 5, 54);
+    font-family: 'Pacifico', cursive;
+}
+.searchInput{
+    border: 1px solid rgb(31, 5, 54) ;
+    background-color: rgb(53, 6, 94);
+    width:25%;
+    height:5%;
+    border-radius: 7px;
+    color:white;
+    padding:5px;
+    font-size: 20px;
+    justify-content: center;
+}
+.search img{
+    width:25px;
+}
+.container{
+    display: flex;
+    overflow-x: auto; 
+    justify-content: center;
+    
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+.container img{
+    border:1px solid rgb(194, 189, 189);
+    height: 200px;
+    width:270px;   
+}
+.card{
+    border:1px solid rgb(20, 1, 37);
+    width:270px;
+    padding:3px;
+    box-shadow: 10px 10px 10px 10px rgb(20, 1, 37);
+    flex: 0 0 auto;
+}
+.card:last-child{
+    flex: 0 0 auto;
+}
+.cardTitle, .cardDesc{
+    color:white;
+    text-align: center;
+    font-weight: 100;
+}
+.cardPlay{
+    border:1px solid rgb(20, 1, 37);
+    width:600px;
+    padding:3px;
+    box-shadow: 10px 10px 10px 10px rgb(20, 1, 37);
+    flex: 0 0 auto;
+    margin-left:29%;
+    padding: 20px;
+    border-radius:10px;
+}
+audio{
+    margin-left:100px;
+    width:400px;
+    padding: 20px;
+}
+
+.cardPlay img{
+    margin-left: 170px;
+    width:300px;
+}
+.playBtn{
+    padding:10px;
+}
+.playBtn button{
+    width:200px;
+    background-color:rgb(194, 173, 133) ;
+    border:1px solid white;
+    padding:10px;
+    font-size: 17px;
+    margin-left: 30px;
+    border-radius: 7px;
+    font-family: 'Pacifico', cursive;
+}
